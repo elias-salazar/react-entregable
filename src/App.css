@@ -18,7 +18,7 @@
 .cardQuote{
   display: flex;
   background-color: aliceblue;
-  width: 600px;
+ max-width: 600px;
   height: fit-content;
   padding: 10px;
   flex-direction: column;
@@ -29,13 +29,14 @@
 
   
 }
+
 .cardQuote h4 i{
   font-size: 35px;
   margin-right: 1rem;
 }
 .cardQuote p{
   align-self: flex-end;
-
+  margin: auto 5px ;
 }
 
 
